@@ -1,6 +1,9 @@
 // Replit用です！
 
-const { TOKEN } = process.env; // SELECTに登録したenvのTOKEN
+// config.jsを呼ぶ（これがないとWebViewが出てこない）
+require('./config.js');
+
+const { TOKEN } = process.env; // SECLETに登録したenvのTOKEN
 const { Client, GatewayIntentBits, ActivityType } = require('discord.js'); // 環境変数
 
 // DiscordBotが機能するために必要なデータ
