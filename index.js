@@ -1,8 +1,5 @@
 // Replit用です！
 
-// config.jsを呼ぶやつ
-require("./config.js");
-
 const { TOKEN } = process.env; // SELECTに登録したenvのTOKEN
 const { Client, GatewayIntentBits, ActivityType } = require('discord.js'); // 環境変数
 
